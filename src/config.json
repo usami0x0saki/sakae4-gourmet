@@ -1,6 +1,6 @@
 {
-  "title": "Geolonia PWAマップ",
-  "description": "Google スプレッドシートを更新するだけでオリジナルの地図アプリを作成できる\n「Geolonia PWAマップ」",
+  "title": "女子大グルメマップ",
+  "description": "名古屋市中区、栄のディープな繁華街・女子大エリア(栄4丁目)。※「女子大」と呼ばれるのは昔女子大学がこのアリアにあったからだそうです。\n私の行きつけのバーが多く位置するのでしょっちゅう行っております。バーに行く前後などでよく行っており、おすすめだ!と思ったご飯屋さんなどを紹介します。",
   "form_url": "",
   "logo_image_url": "https://geoloniamaps.github.io/pwamap/icon-pwamap.svg",
   "background_image_url": "https://geoloniamaps.github.io/pwamap/geolonia_bgimage_1920_1080.png",
