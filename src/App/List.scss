@@ -1,0 +1,35 @@
+.shop-list
+{
+  color: #555555;
+  box-sizing: border-box;
+  height: 100%;
+  overflow: auto;
+
+  .shop
+  {
+    border-bottom: 1px solid #EEEEEE;
+    padding: 16px;
+    font-size: 12px;
+    position: relative;
+  }
+
+  tr
+  {
+    background-color: transparent !important;
+  }
+
+  .shop:nth-child(even)
+  {
+    background-color: #f7f7f7;
+  }
+  .shop-list-category
+  {
+    margin: 20px 10px;
+    font-size: 18px;
+    display: flex;
+  }
+  .shop-list-not-found
+  {
+    margin: 50px 20px;
+  }
+}

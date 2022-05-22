@@ -1,0 +1,40 @@
+.tabbar
+{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  padding-right: 18px;
+
+  ul
+  {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    width: 100%;
+
+    li
+    {
+      width: 20%;
+      text-align: center;
+    }
+
+    a
+    {
+      color: rgb(153, 153, 153);
+      text-decoration: none;
+
+      .icon
+      {
+        line-height: 20px;
+      }
+
+      .text
+      {
+        font-size: 10px;
+      }
+    }
+  }
+}

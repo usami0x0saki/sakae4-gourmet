@@ -1,0 +1,34 @@
+a
+{
+  color: #007bff;
+  text-decoration: none;
+}
+
+.app-body
+{
+  height: calc(100% - 50px - env(safe-area-inset-bottom));
+}
+// Hack for Edge to eliminate calc(env())
+@supports (-ms-ime-align: auto) {
+  .app-body {
+    height: calc(100% - 50px);
+  }
+}
+// Also hack for IE
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+  .app-body {
+    height: calc(100% - 50px);
+  }
+}
+
+.app-footer
+{
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 50px;
+  background-color: #ffffff;
+  border-top: 1px solid #cccccc;
+  padding-bottom: env(safe-area-inset-bottom);
+  z-index: 9999;
+}
