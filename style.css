@@ -1,0 +1,39 @@
+html, body, #root
+{
+  width: 100%;
+  height: 100%;
+  -webkit-text-size-adjust: none;
+}
+
+#root
+{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: none;
+}
+
+#root > .loader
+{
+  width: 192px;
+  font-size: 32px;
+  text-align: center;
+}
+
+img
+{
+  max-width: 100%;
+}
+
+@media only screen and (max-width: 960px) {
+  .github-fork-ribbon
+  {
+    display: none;
+  }
+
+  #root
+  {
+    background: none !important;
+  }
+}
